@@ -27,7 +27,7 @@ def clean_string(text):
     return text
 
 def open_artist_page(artist_name):
-    base_url = "https://laasyaart.com/"
+    base_url = "https://artinnovate.in/"
     artist_url = base_url + artist_name.lower().replace(" ", "-") + "/"
     return artist_url
 
